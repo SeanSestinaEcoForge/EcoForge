@@ -15,15 +15,15 @@ Fork → simulate → build → iterate → swarm.
 - [Scaling Pathways](docs/scaling.md) – horizontal to swarm  
 - **backup/**: Full snapshot ZIP (timestamped)
 
-## Quickstart (once public)
-
-1. **Clone the repo**  
-   Open your terminal (Command Prompt/PowerShell on Windows, Terminal on Mac/Linux) and run these lines one by one:
-
-   ```bash
-   git clone [https://github.com/SeanSestina/EcoForge.git](https://github.com/SeanSestina/EcoForge.git)
-   cd EcoForgepip install -r requirements.txtpip install jupyterlab
-1. Open your terminal (or Command Prompt/PowerShell on Windows, Terminal on Mac/Linux).
-2. Run these lines one by one:
-
-
+markdown ## Quickstart (once public)  1. **Clone the repo**      Open your terminal (Command Prompt/PowerShell on Windows, Terminal on Mac/Linux) and run these lines one by one:      bash
+   git clone https://github.com/SeanSestina/EcoForge.git
+   cd EcoForge
+    2. **Install dependencies**      (Run inside the EcoForge folder after `cd EcoForge`):     bash
+   pip install -r requirements.txt
+    3. **Optional but recommended for Jupyter notebooks** (interactive plots):     bash
+   pip install jupyterlab
+    4. **Run simulations**      - Jupyter (opens in browser):       bash
+     jupyter notebook simulations/closed_loop_sim.ipynb
+          - OR Python script:       bash
+     python simulations/bsfl_yield_sim.py
+         Plots show nutrient cycles, fouling curves, LCOF payback, Mars stressor sims.
