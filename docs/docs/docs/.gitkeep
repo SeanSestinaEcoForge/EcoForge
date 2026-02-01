@@ -1,0 +1,29 @@
+EcoForge/
+├── README.md                     # Hero landing: vision summary, quickstart, functions list teaser, call-to-action
+├── LICENSE                       # MIT – easy forking
+├── .gitignore                    # Already there – keep it
+├── requirements.txt              # For sims: numpy, scipy, pandas, matplotlib, jupyter (add if missing)
+├── docs/                         # All documentation & text files
+│   ├── protocols.md              # Merged EIIP + PPP + PROTOCOL-LIST + safety/ops/scaling/Mars
+│   ├── bom.md                    # $9-12k Bill of Materials table (markdown or csv link)
+│   ├── master-vision.md          # Condensed from Drive thesis/vision gdocs
+│   ├── functions-list.md         # The full refined list we just built
+│   └── simulations-overview.md   # Explains notebooks, how to run, key outputs
+├── simulations/                  # All code/modeling
+│   ├── closed_loop_sim.ipynb     # Core Jupyter (or .py)
+│   ├── fouling_curves.py         # v2 prediction
+│   ├── biogas_yield_stub.py      # Dynamic yield calc
+│   ├── outputs/                  # PNGs/PDFs of sim runs (fouling plots, perchlorate curves)
+│   └── requirements.txt          # Local if needed (or root one)
+├── prompts/                      # Grok/xAI prompt chains
+│   ├── fouling_alert.txt
+│   ├── mars_stressor_whatif.txt
+│   └── ops_coaching_chain.txt
+├── cad/                          # Designs & visuals
+│   ├── rack_sketches.pdf         # From your local
+│   └── dome_layout.stl           # If ready (or placeholders)
+├── images/                       # Diagrams, renders, screenshots
+│   ├── porthole_concept.png      # (generate later if needed)
+│   └── deck_slide_1.png          # From Drive exports
+└── backup/                       # Optional: drop the full zip here as snapshot
+    └── EcoForge-Full-Backup-2026-02-01.zip
