@@ -2,7 +2,7 @@
 **Daily Solids → Larvae Yield → Protein/Biogas Boost**
 
 ## Purpose
-Processes fish/plant solids waste into high-value protein (larvae harvest) + frass (biogas feedstock/compost). Accelerates core loop by reducing solids load, closing protein cycle.
+Processes fish/plant solids waste into high-value protein (larvae harvest) + frass (biogas feedstock/compost). Accelerates core loop by reducing solids load, closing protein cycle.![Core Loop Flow](../images/core-loop-flow.png)
 
 ## Daily Workflow
 1. Solids input: 5-15 kg/day wet waste from core loop (fish feces, plant trimmings).
