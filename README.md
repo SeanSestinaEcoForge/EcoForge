@@ -1,9 +1,8 @@
-# EcoForge 🌱🤖🚀 v1.0 Staging
+# EcoForge
+Open-source, Grok-powered closed-loop homesteads: Earth abundance today, Mars bases tomorrow. $9–12k container prototype, 95%+ recycle, perchlorate-hardened bio-consortia, Optimus/Starship fit.
 
-Open-source closed-loop AI homesteads: Grok-optimized, Optimus-automated, Starship-scaled.  
-Earth abundance prototypes today → Mars-ready bases tomorrow.
-
-$9–12k BOM | 95%+ recycle | Perchlorate-hardened | Fork & build.
+Grok as nervous system → real-time monitoring, predictive what-ifs, adaptive coaching.
+Fork → simulate → build → iterate → swarm.
 
 ## Structure Overview
 - **docs/**: Protocols, BOM, vision, functions list
@@ -20,13 +19,18 @@ Key docs live:
 - [Scaling Pathways](docs/scaling-pathways.md) – horizontal to swarm
 
 ## Quickstart (once public)
-1. Clone repo: `git clone https://github.com/SeanSestina/EcoForge.git`
-2. Install deps: `pip install -r requirements.txt`
-3. Run sims: `jupyter notebook simulations/closed_loop_sim.ipynb` (or python simulations/bsfl_yield_sim.py)
-## Quickstart (once public)
-1. Clone repo
-2. pip install -r requirements.txt
-3. jupyter notebook simulations/closed_loop_sim.ipynb
+
+1. Clone the repo  
+   `git clone https://github.com/SeanSestina/EcoForge.git`
+
+2. Install dependencies  
+   `pip install -r requirements.txt`  
+   (Assumes Python 3.10+; Jupyter optional for notebooks: `pip install jupyterlab`)
+
+3. Run simulations  
+   - Jupyter: `jupyter notebook sims/closed_loop_sim.ipynb` (base closed-loop model)  
+   - OR Python script: `python sims/bsfl_yield_sim.py` (BSFL yield/fouling/perchlorate focus)  
+   Plots show nutrient cycles, fouling curves, LCOF payback, Mars stressor sims.## Repo Structure
 
 Full functions list: docs/functions-list.md  
 Repo staging complete → public drop soon. Builders: prototype, test, PR.  
