@@ -2,6 +2,7 @@
 
 **Open-source, Grok-powered closed-loop homesteads**  
 Earth abundance today, Mars bases tomorrow.  
+
 $9–12k 20ft container prototype • 95%+ recycle • perchlorate-hardened bio-consortia • Optimus mounts • Starship-fit scaling.
 
 Grok as nervous system → real-time monitoring, predictive what-ifs, adaptive coaching.  
@@ -9,27 +10,21 @@ Fork → simulate → build → iterate → swarm.
 
 ## Key Docs Live
 
-- [Complete v1.1 Master Protocol Index](docs/master_protocol_index.md) – full index & code seeds  
-- [Biochar Production](docs/biochar.md) – retort & charging protocol  
-- [Master Thread Timeline](docs/master_thread_timeline.md) – how we built this  
-- [Scaling Pathways](docs/scaling.md) – horizontal to swarm  
-- **backup/**: Full snapshot ZIP (timestamped)
+These documents form the core of the v1.1 Master Protocol — setup, protocols, history, and scaling.
 
-## Quickstart (once public)
+- **[Complete v1.1 Master Protocol Index](docs/master_protocol_index.md)** – full index & code seeds  
+- **[Biochar Production](docs/biochar.md)** – retort & charging protocol  
+- **[Master Thread Timeline](docs/master_thread_timeline.md)** – how we built this  
+- **[Scaling Pathways](docs/scaling.md)** – horizontal to swarm  
+- **backup/**: Full snapshot ZIP (timestamped) for safe versioning
+
+More to come: CAD files, full BOM, expanded simulations, Grok prompt library.
+
+## Quickstart (Once Public)
+
+**Note:** Repo currently in private staging. Make public via Settings → General → Danger Zone when ready.
 
 1. **Clone the repo**  
-   Open your terminal (Command Prompt/PowerShell on Windows, Terminal on Mac/Linux) and run these lines one by one:  
    ```bash
-   git clonepip install -r requirements.txtpip install jupyterlab
-jupyter lab simulations/closed_loop_sim.ipynbpython simulations/bsfl_yield_sim.py
-://github.com/SeanSestina/EcoForge.git](https://github.com/SeanSestina/EcoForge.git)
-   cd EcoForge
-    2. **Install dependencies**      (Run inside the EcoForge folder after `cd EcoForge`):     bash
-   pip install -r requirements.txt
-    3. **Optional but recommended for Jupyter notebooks** (interactive plots):     bash
-   pip install jupyterlab
-    4. **Run simulations**      - Jupyter (opens in browser):       bash
-     jupyter notebook simulations/closed_loop_sim.ipynb
-          - OR Python script:       bash
-     python simulations/bsfl_yield_sim.py
-         Plots show nutrient cycles, fouling curves, LCOF payback, Mars stressor sims.
+   git clone [https://github.com/SeanSestinaEcoForge/EcoForge.git](https://github.com/SeanSestinaEcoForge/EcoForge.git)
+   cd EcoForgepip install -r requirements.txtpip install jupyterlabjupyter lab
