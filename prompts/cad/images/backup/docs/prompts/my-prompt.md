@@ -23,8 +23,8 @@
 - **[Simulations & Modeling](../simulations/README.md)**  
   Python/Scipy ODE solvers for fouling v2.0 dynamics, perchlorate reduction curves, 50+ year stress projections, nutrient/flow kinetics.
 
-- **[Grok Prompt Templates](../prompts/)**  
-  Real-time optimization prompts, what-if scenario explorers, builder tutoring and debugging templates for Grok.
+- **[Grok Prompt Templates](../prompt/)**  
+  Real-time optimization prompt, what-if scenario explorers, builder tutoring and debugging templates for Grok.
 
 - **[Stress Testing & Longevity](./stress-tests.md)**  
   Fouling mitigations (PC drippers, H₂O₂ dosing, bot cleaning cycles), solids handling cascade, long-term perchlorate/radiation/dust resilience testing.
