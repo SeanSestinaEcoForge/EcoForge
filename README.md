@@ -20,10 +20,15 @@ Fork → simulate → build → iterate → swarm.
 1. **Clone the repo**  
    ```bash
    git clone [https://github.com/SeanSestina/EcoForge.git](https://github.com/SeanSestina/EcoForge.git)
+   cd EcoForgepip install -r requirements.txtpip install jupyterlabpython simulations/bsfl_yield_sim.py### How to use this in your terminal (after repo is public)
+
+1. Open your terminal (or Command Prompt/PowerShell on Windows, Terminal on Mac/Linux).
+2. Run these lines one by one:
+
+   ```bash
+   git clone [https://github.com/SeanSestina/EcoForge.git](https://github.com/SeanSestina/EcoForge.git)
    cd EcoForge
-   git clone https://github.com/SeanSestina/EcoForge.git
-cd EcoForge
-pip install -r requirements.txt
-# Optional but recommended for Jupyter notebooks:
-pip install jupyterlab
+   pip install -r requirements.txt
+   # If you want Jupyter notebooks (recommended for seeing plots interactively):
+   pip install jupyterlab
   
