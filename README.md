@@ -22,7 +22,8 @@ More to come: CAD files, full BOM, expanded simulations, Grok prompt library.
 
 ## Quickstart (Once Public)
 
-**Note:** Repo currently in private staging. Make public via Settings → General → Danger Zone when ready.
+**Note:** "Once Public" from quickstart.
+   - Commit/push. Make public via Settings → General → Danger Zone when ready.
 
 1. **Clone the repo**  
    ```bash
