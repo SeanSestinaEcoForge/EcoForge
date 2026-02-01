@@ -7,6 +7,11 @@ $9–12k BOM | 95%+ recycle | Perchlorate-hardened | Fork & build.
 
 ## Structure Overview
 - **docs/**: Protocols, BOM, vision, functions list
+- **simulations/**: Jupyter/Python models & notebooks (nutrient cycling, fouling, biogas, stressors)
+- **prompts/**: Grok prompt chains for ops/coaching
+- **cad/**: Designs & sketches
+- **images/**: Diagrams & renders
+- **backup/**: Full snapshot zip
 - **simulations/**: Jupyter/Python models (nutrient cycling, fouling, biogas, stressors)
 - **prompts/**: Grok prompt chains for ops/coaching
 - **cad/**: Designs & sketches
