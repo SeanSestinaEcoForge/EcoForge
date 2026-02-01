@@ -12,11 +12,17 @@ $9–12k BOM | 95%+ recycle | Perchlorate-hardened | Fork & build.
 - **cad/**: Designs & sketches
 - **images/**: Diagrams & renders
 - **backup/**: Full snapshot zip
-- **simulations/**: Jupyter/Python models (nutrient cycling, fouling, biogas, stressors)
-- **prompts/**: Grok prompt chains for ops/coaching
-- **cad/**: Designs & sketches
-- **images/**: Diagrams & renders
 
+Key docs live:
+- [Complete v1.1 Master Protocol Index](docs/Complete-v1.1-Master-Protocol-Index.md) – full index & code seeds
+- [Biochar Production](docs/biochar_production.md) – retort & charging protocol
+- [Master Thread Timeline](docs/master-thread.md) – how we built this
+- [Scaling Pathways](docs/scaling-pathways.md) – horizontal to swarm
+
+## Quickstart (once public)
+1. Clone repo: `git clone https://github.com/SeanSestina/EcoForge.git`
+2. Install deps: `pip install -r requirements.txt`
+3. Run sims: `jupyter notebook simulations/closed_loop_sim.ipynb` (or python simulations/bsfl_yield_sim.py)
 ## Quickstart (once public)
 1. Clone repo
 2. pip install -r requirements.txt
