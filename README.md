@@ -15,7 +15,7 @@ Fork → simulate → build → iterate → swarm.
 - [Scaling Pathways](docs/scaling.md) – horizontal to swarm  
 - **backup/**: Full snapshot ZIP (timestamped)
 
-markdown ## Quickstart (once public)  1. **Clone the repo**      Open your terminal (Command Prompt/PowerShell on Windows, Terminal on Mac/Linux) and run these lines one by one:      bash
+## Quickstart (once public)  1. **Clone the repo**      Open your terminal (Command Prompt/PowerShell on Windows, Terminal on Mac/Linux) and run these lines one by one:      bash
    git clone https://github.com/SeanSestina/EcoForge.git
    cd EcoForge
     2. **Install dependencies**      (Run inside the EcoForge folder after `cd EcoForge`):     bash
