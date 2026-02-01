@@ -37,7 +37,7 @@
 - Full BOM Spreadsheet: [../assets/bom.xlsx](../assets/bom.xlsx) (upload your breakdown soon!)
 - CAD Files: [../cad/](../cad/) (add STEP/FCStd/FreeCAD files)
 - Simulations Code: [../simulations/](../simulations/)
-- Grok Prompts: [../prompts/](../prompts/)
+• **Grok Prompts:** [../prompts/](../prompts/) (real-time optimization, what-if scenarios, builder tutoring & debugging templates)
 - Repo README: [../README.md](../README.md)
 - Requirements: [../requirements.txt](../requirements.txt)
 
