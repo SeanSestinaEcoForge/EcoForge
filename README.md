@@ -1,24 +1,7 @@
-# EcoForge – v1.0
-
-**Open-source closed-loop AI homesteads**  
-Grok-optimized · Optimus-automated · Starship-scalable  
-Earth abundance today · Mars readiness tomorrow
-
-**Goal**: Self-sustaining 20 ft shipping container homesteads  
-- ~$9–12k BOM prototype target
-- >95% water/nutrient recycle  
-- Perchlorate-hardened bio-consortia (Mars soil compatibility)  
-- Grok real-time monitoring + predictive what-ifs & coaching  
-- Optimus-compatible mounts & task protocols  
-- Modular design for swarm scaling & Starship cargo fit
-
-**Workflow**: Fork → Simulate → Build → Iterate → Swarm
-
-## Quickstart (once public)
-```bash
-git clone
-(https://github.com/SeanSestinaEcoForge/EcoForge.git)
+# EcoForge – v1.0  **Open-source closed-loop AI homesteads**   Grok-optimized · Optimus-automated · Starship-scalable   Earth abundance today · Mars readiness tomorrow  **Goal**: Self-sustaining 20 ft shipping container homesteads   - ~$9–12k BOM prototype target   - >95% water/nutrient recycle   - Perchlorate-hardened bio-consortia (Mars soil compatibility)   - Grok real-time monitoring + predictive what-ifs & coaching   - Optimus-compatible mounts & task protocols   - Modular design for swarm scaling & Starship cargo fit  **Workflow**: Fork → Simulate → Build → Iterate → Swarm  ## Quickstart (once public) bash
+git clone https://github.com/SeanSestinaEcoForge/EcoForge.git
 cd EcoForge
 pip install -r requirements.txt
-pip install jupyterlab          # install if not in requirements.txt
-jupyter lab                     # open Jupyter to explore simulations/
+pip install jupyterlab          # only if not already in requirements.txt
+jupyter lab                     # open to explore simulations/
+ Then open files in the `simulations/` folder (e.g. perchlorate script or future notebooks).  ## What's Inside Right Now - `master-protocol.md` — Core closed-loop architecture   - `complete-v1.1-master-protocol-list.md` — Full protocol catalog   - `protocols/v1.1/` — Detailed guides (core-loop, biochar, etc.)   - `simulations/` — Python models (perchlorate tolerance, fouling, etc.)   - `my-prompt.md` — Grok prompt templates   - `requirements.txt` — numpy, scipy, pandas, matplotlib, jupyterlab   - `docs/` — Architecture & scaling notes   - LICENSE — MIT  ## Near-term Roadmap - Detailed BOM table ($9–12k breakdown)   - Basic CAD sketches (container layout, Optimus mounts)   - Expanded Jupyter notebooks   - Larger Grok prompt library with examples   - Mars/extreme-condition simulations  ## How to Contribute - Fork & PR: Add protocols, improve sims, refine BOM, Mars ideas   - Open issues: Bugs in sims, build suggestions, sensor recs   - Reach out: @SeanSestina on X, #EcoForge  Humanity first. Build abundance — prep Earth, ready Mars.   🌱🤖🚀🔴
