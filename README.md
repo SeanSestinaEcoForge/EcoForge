@@ -21,10 +21,12 @@ Key docs live:
 ## Quickstart (once public)
 
 1. Clone the repo  
-   `git clone https://github.com/SeanSestina/EcoForge.git`
+   ```bash
+   git clone [https://github.com/SeanSestina/EcoForge.git](https://github.com/SeanSestina/EcoForge.git)
+   cd EcoForge
 
 2. Install dependencies  
-   `pip install -r requirements.txt`  
+   pip install -r requirements.txt
    (Assumes Python 3.10+; Jupyter optional for notebooks: `pip install jupyterlab`)
 
 3. Run simulations  
