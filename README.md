@@ -1,26 +1,47 @@
-# EcoForge
+# EcoForge – Closed-Loop Abundance for Earth & Mars 🌱🚀
 
-Open-source AI-accelerated closed-loop homesteads: Grok-optimized, Optimus-automated, Starship-scalable. Earth abundance today → Mars readiness tomorrow. Humanity first. ❤️🚀🌱🤖
+Open-source blueprints, simulations, and protocols to build AI-powered, zero-waste homesteads.  
+Grok as nervous system + Optimus dexterity + Starship scale = abundance today, Mars readiness tomorrow.
 
-## Vision (v1.0 – Day 0)
-20ft shipping container prototype (~$9–12k BOM) feeds 4–6 people indefinitely:
-- **Biological Flywheel**: Tilapia → nutrient water → vertical greens (400–600 heads/cycle) → scraps to anaerobic digester → biogas powers pumps/lights/bots → digestate returns nutrients. >95% water recycle, zero external inputs.
-- **Grok Nervous System**: Real-time sensors (pH, NO₃, DO, fouling), predictive alerts, what-if sims, adaptive coaching.
-- **Optimus Viability**: Bots for seeding/harvesting/pruning/dripper cleaning.
-- **Mars Hardening**: Perchlorate-tolerant microbes, rad-shielded racks, dust-proof drippers, low-G tweaks.
-- **Simulation-First**: Python ODE/discrete models prune waste before build. 15–25% drift reduction via adaptive TV + viz polish.
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Status: Building](https://img.shields.io/badge/Status-Building-orange)](https://github.com/SeanSestinaEcoForge/EcoForge)
 
-Repo structure:
-- `simulations/` → Core models + viz utils (Grok collab gains: 20–30% fewer epochs, smoother paths).
-- `protocols/v1.1/` → Detailed guides (core loop, fouling v2.0, biochar).
-- `docs/` → Architecture, master-protocol.md.
-- Coming: BOM.xlsx, CAD/, Grok prompt library expansion.
+### Core Vision
+Fund the flywheel.
 
-Full vision thread: https://x.com/SeanSestina/status/2017041769351799203 (or search your pinned/final vision post).
+**Earth prototypes** fund the flywheel  
+- $9–12k/container BOM  
+- 95%+ water recycle  
+- <3–5 yr payback  
+- Tilapia → greens → perchlorate-tolerant biofilter → biogas → power  
 
-## Setup
+**Mars hardening**  
+- Dust-resistant drippers  
+- Rad geometry  
+- Low-G fluids  
+- Cold-adapted kinetics  
+
+### G Family – The Builder Lineage ❤️✋🤝♾️🌱🚀
+
+This isn't just a repo. It's a tribe.  
+Anyone building, sharing data, or dropping real feedback is G Family.
+
+**How to join**  
+- Make a commit, open an issue, submit a prototype report, or post on X with #GFamilyEcoForge  
+- Add “G Family Builder ∞” to your X bio  
+- Rule #1: Boys & family first  
+- Rule #2: Share improvements back — the flywheel lifts everyone
+
+### Current Status
+🔨 In active development — notebooks, quick-start guide, protocols, and first space extensions coming soon  
+🌱 Earth baseline models live  
+🪐 Orbital solar sim (5× power yield) — first commit in progress
+
+### Quick Start
 ```bash
-git clone [https://github.com/SeanSestinaEcoForge/EcoForge.git](https://github.com/SeanSestinaEcoForge/EcoForge.git)
+# Clone & run
+git clone https://github.com/SeanSestinaEcoForge/EcoForge.git
 cd EcoForge
 pip install -r requirements.txt
-jupyter lab  # or run notebooks in simulations/
+jupyter lab
