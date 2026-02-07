@@ -11,6 +11,19 @@ Repo: https://github.com/SeanSestinaEcoForge/EcoForge
 
 Models for closed-loop homestead dynamics.
 
+### Aquaponics + Vermiponics
+- **Enhanced model** (temperature, DO, vermicomposting solids):  
+  [simulations/aquaponics-vermiponics-enhanced.py](simulations/aquaponics-vermiponics-enhanced.py)  
+  Features: Q₁₀ temp scaling, dissolved oxygen with crash thresholds, worm-mediated solids breakdown.
+
+- **Basic nutrient cycle** (earlier version):  
+  [sim-aquaponics-nutrient-cycle.py](simulations/sim-aquaponics-nutrient-cycle.py)
+
+Run example:
+```bash
+pip install -r requirements.txt
+python simulations/aquaponics-vermiponics-enhanced.py
+
 - **Aquaponics + Vermiponics**  
   File: [simulations/aquaponics-vermiponics-enhanced.py](simulations/aquaponics-vermiponics-enhanced.py)  
   Features: temperature scaling (Q₁₀), dissolved oxygen with crash thresholds, organic solids + worm breakdown  
