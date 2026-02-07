@@ -21,7 +21,21 @@ We're iterating on high-fidelity simulations that model:
 - Alkalinity consumption & approximate pH effects
 
 These models help test parameter ranges, stress scenarios, and long-term stability before building physical prototypes.
+### Available Simulations
 
+All models are located in the `simulations/` directory.
+
+| File                                      | Description                                                                 | Key Features                                                                                  | How to Run                                                                 |
+|-------------------------------------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| `sim-aquaponics-nutrient-cycle.py`        | Basic nutrient cycling model                                                | Ammonia → nitrite → nitrate conversion, simple plant uptake                                  | `python simulations/sim-aquaponics-nutrient-cycle.py`                      |
+| `aquaponics-vermiponics-enhanced-ph-alk.py` | Enhanced aquaponics + vermiponics with pH & alkalinity dynamics            | Temperature scaling (Q10), DO limitation & crashes, vermicomposting, pH-dependent nitrification, alkalinity decay | `python simulations/aquaponics-vermiponics-enhanced-ph-alk.py`             |
+| `aquaponics-vermiponics-enhanced-ph-alk.ipynb` | **Interactive Jupyter notebook** for parameter tuning                      | Real-time plots, sliders for temperature and initial alkalinity, full system overview (biomass, nutrients, DO, pH, Alk) | `jupyter notebook simulations/aquaponics-vermiponics-enhanced-ph-alk.ipynb` |
+
+**Quick setup (if you haven't already):**
+```bash
+pip install -r requirements.txt
+# or manually:
+pip install numpy scipy matplotlib ipywidgets jupyter
 ### Available Simulations
 
 All simulations live in the `simulations/` folder.
