@@ -7,5 +7,16 @@ Rules:
 - Rule #2: Always share improvements back — the flywheel lifts everyone
 
 Repo: https://github.com/SeanSestinaEcoForge/EcoForge
+## Simulations
+
+Models for closed-loop homestead dynamics.
+
+- **Aquaponics + Vermiponics**  
+  File: [simulations/aquaponics-vermiponics-enhanced.py](simulations/aquaponics-vermiponics-enhanced.py)  
+  Features: temperature scaling (Q₁₀), dissolved oxygen with crash thresholds, organic solids + worm breakdown  
+  Run:  
+  ```bash
+  pip install -r requirements.txt
+  python simulations/aquaponics-vermiponics-enhanced.py
 
 Who's building with me? ∞
