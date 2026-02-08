@@ -5,6 +5,8 @@
 ![SciPy](https://img.shields.io/badge/SciPy-%238CAAE6.svg?style=for-the-badge&logo=scipy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 ![MIT License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
+## Security
+See [SECURITY.md](SECURITY.md) for how to report vulnerabilities responsibly.
 **Earth abundance today. Mars readiness tomorrow.**
 
 EcoForge builds modular, AI-optimized closed-loop systems for sustainable food production — starting with aquaponics + vermiponics, and scaling toward fully autonomous habitats on Earth and eventually Mars.
