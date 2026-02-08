@@ -23,7 +23,7 @@ We're iterating high-fidelity simulations that model:
 - Nitrification (ammonia → nitrite → nitrate)
 - Vermicomposting (solids → ammonia release)
 - Dissolved oxygen dynamics & crashes
-- Alkalinity consumption & approximate pH effects
+- Alkalinity consumption & approximate pH effects "See param_sweep_example.py for temperature/nutrient sensitivity analysis."
 
 These help test parameters, stress scenarios, and long-term stability before physical prototypes.
 
