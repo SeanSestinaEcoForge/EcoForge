@@ -1,0 +1,21 @@
+EcoForge/
+├── src/
+│   ├── core/
+│   │   └── xai_client.py          # SDK wrapper + common setup
+│   ├── tools/
+│   │   ├── energy.py              # CHP/turbine calcs, ISRU stubs
+│   │   ├── micp.py                # MICP workflow + monitoring
+│   │   └── remediation.py         # Decision tree logic
+│   ├── agents/
+│   │   └── orchestrator.py        # Main async chaining loop
+│   └── server/
+│       └── app.py                 # FastAPI server
+├── examples/
+│   ├── simple_grok_chat.py
+│   ├── tool_calling_demo.py
+│   ├── vision_demo.py
+│   └── yield_sim_basic.py
+├── prompts/
+│   └── ethics_yield_templates.md  # Grok system/user templates
+├── requirements-extra.txt         # xai-sdk + fastapi + etc.
+└── README-updates.md              # What to append to main README
