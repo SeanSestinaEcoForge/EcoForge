@@ -17,6 +17,24 @@ EcoForge builds modular, AI-optimized closed-loop systems for sustainable food p
 
 MIT Licensed · Community-first · Always improving
 
+## Grok 4.20 Launch Readiness (Dropping This Week – Feb 2026)
+
+EcoForge is built Grok-native. Grok 4.20's upgrades (faster/deeper reasoning, agentic tool calling, multimodal text+image+video, real-time X/web data, reduced hallucinations) will supercharge our closed-loop sims and decision chains.
+
+**What this means for EcoForge:**
+- Deeper Monte Carlo branching & probabilistic scenarios in expansion/food/energy sims
+- Multimodal analysis (upload Node blueprints/regolith photos → Grok suggests optimizations)
+- Real-time inputs (pull X trends for energy markets or solar breakthroughs)
+- Tighter epistemic rigor (Grok vetoes at >30% uncertainty with evidence)
+
+**Quickstart Post-Release:**
+1. Get xAI API key: https://x.ai/api
+2. Use current proxy model (e.g., grok-4-1-fast-reasoning) until 4.20 endpoint drops
+3. Chain prompts from `/prompts/` folder
+4. Run sims → log outputs in issues/PRs (share metrics, screenshots, JSON results)
+5. Contribute back: API wrappers, multimodal examples, new sim tweaks
+
+Help us max this: Add logging stubs, test chains, open PRs once 4.20 lands.
 ## Current Focus: Aquaponics + Vermiponics Simulation
 
 We're iterating high-fidelity simulations that model:
