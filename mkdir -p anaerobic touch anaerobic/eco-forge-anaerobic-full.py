@@ -9,7 +9,18 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 print("EcoForge Anaerobic Module – Full Stack Loaded")
+def run_full():
+    print("EcoForge Anaerobic Full Run Starting...")
+    
+    # Quick placeholders to silence F821
+    use_biochar = True      # or False, or calculate from args
+    use_hydrochar = False
+    biochar_g_per_L = 0.0   # replace with real calc later, e.g., from steady['biochar_yield']
+    hydrochar_g_per_L = 0.0 # same
 
+    print(f"Additives: Biochar {use_biochar} ({biochar_g_per_L} g/L) | Hydrochar {use_hydrochar} ({hydrochar_g_per_L} g/L)")
+    
+    # Rest of your code...
 # ────────────────────────────────────────────────
 # SHARED UTILS
 # ────────────────────────────────────────────────
