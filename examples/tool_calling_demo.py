@@ -2,8 +2,7 @@
 from src.core.xai_client import create_chat
 from xai_sdk.tools import tool
 
-@tool
-def get_chp_metrics(power: float, fuel: str = "propane") -> dict:
+@toolchat.append({"role": "user", "content": "Explain closed-loop homestead in 2 sentences."})def get_chp_metrics(power: float, fuel: str = "propane") -> dict:
     """Get CHP performance metrics"""
     from src.tools.energy import chp_efficiency_calc
     return chp_efficiency_calc(power, fuel)
