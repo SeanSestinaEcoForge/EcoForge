@@ -6,7 +6,7 @@ Dual mission: Sovereign Earth homesteads + high-fidelity Mars habitat analogs.
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.10+-blue)](requirements.txt)
-
+[![CI](https://github.com/SeanSestinaEcoForge/SeanSestinaEcoForge/actions/workflows/ci.yml/badge.svg)](https://github.com/SeanSestinaEcoForge/SeanSestinaEcoForge/actions/workflows/ci.yml)
 ## Vision
 95–98% closed-loop recycle (nutrients/water/energy).  
 50–100+ sensor streams → ingest endpoints → Grok/Optimus training.  
