@@ -12,15 +12,29 @@ print("EcoForge Anaerobic Module – Full Stack Loaded")
 def run_full():
     print("EcoForge Anaerobic Full Run Starting...")
     
-    # Quick placeholders to silence F821
-    use_biochar = True      # or False, or calculate from args
+    # Fixed undefined names - placeholders (improve later)
+    use_biochar = True
     use_hydrochar = False
-    biochar_g_per_L = 0.0   # replace with real calc later, e.g., from steady['biochar_yield']
-    hydrochar_g_per_L = 0.0 # same
-
+    biochar_g_per_L = 0.0  # TODO: calculate from steady-state
+    hydrochar_g_per_L = 0.0  # TODO: calculate from steady-state
+    
     print(f"Additives: Biochar {use_biochar} ({biochar_g_per_L} g/L) | Hydrochar {use_hydrochar} ({hydrochar_g_per_L} g/L)")
     
-    # Rest of your code...
+    # Keep your existing sim code below...
+    # Example continuation (add your t, y0, args, sol, df, etc.)
+    t = np.linspace(0, 90, 901)
+    y0 = [1.5, 0.8, 0.4, 800, 12, 0.0]
+    args = (45.0, 50.0, 1000.0)
+    
+    sol = odeint(digester_ode, y0, t, args=args)
+    df = pd.DataFrame(sol, columns=['S_ac', 'X_ac', 'VFA', 'TAN', 'H2S', 'CH4_rate'])
+    df['time'] = t
+    df['pH'] = 7.2 - 0.8 * np.log10(1 + df['VFA']/1.5 + 0.01)
+    df['biogas_nm3h'] = df['CH4_rate'] * 0.35 * 0.58
+    
+    steady = df.iloc[-200:]
+    avg_biogas = steady['biogas_nm3h'].mean()
+    print(f"Average biogas: {avg_biogas:.2f} Nm³/h")    # Rest of your code...
 # ────────────────────────────────────────────────
 # SHARED UTILS
 # ────────────────────────────────────────────────
