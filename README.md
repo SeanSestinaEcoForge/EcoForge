@@ -37,3 +37,12 @@ git clone [https://github.com/SeanSestinaEcoForge/SeanSestinaEcoForge.git](https
 cd SeanSestinaEcoForge
 pip install -r requirements.txt
 jupyter notebook simulations/aquaponics-vermiponics-enhanced-ph-alk.ipynb
+## Early Simulation Results (Chaos Data Flywheel)
+First baseline run from `simulations/aquaponics-vermiponics-enhanced-ph-alk.ipynb` (default params: T=22°C, initial Alk=150 mg/L):
+- **DO crash** to ~1.0 mg/L within days (hypoxic stress, below critical 4 mg/L)
+- Alk decline to ~110 mg/L over 120 days
+- Approx pH drop to ~6.8
+- Likely fish mortality and ammonia buildup in this config
+- JSON trace: [chaos-examples/baseline-default.json](chaos-examples/baseline-default.json)
+
+Next steps: Tune for stable DO >5 mg/L, positive fish/plants growth, add stress variants (pH crash, overload, Mars low-PAR).
