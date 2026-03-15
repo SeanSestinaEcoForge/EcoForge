@@ -1,5 +1,5 @@
-numpy
-scipy
-pandas
+fastapi
+uvicorn[standard]
+pydantic
 matplotlib
-jupyter
+numpy
