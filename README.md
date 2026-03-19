@@ -38,10 +38,13 @@ Open-source from day 0. Wallet, sensors, and milestones tracked here once live. 
   - Phase 1: Blueprint & sim lock → COMPLETE ✅  
   - Phase 2: Physical container + first cycle → NEXT (see /docs/Phase2_Checklist.md)  
   - Phase 3: Grok agents + multi-node → queued  
+- **Sensor Logging Prototype**: [grok_esp32_logger_stub.py](./src/tools/grok_esp32_logger_stub.py) — simulation running, CSV logs live  
+- **BOM Sourcing Tracker**: [BOM_sourcing.md](./docs/BOM_sourcing.md) — items researched & ready for bootstrap orders
 
 **Roadmap Checklists**  
 - [Master Blueprint v2](./docs/EcoForge-Master-Blueprint-v2.md)  
-- [Phase 2 Build Sequence Checklist](./docs/Phase2_Checklist.md) — added tonight  
+- [Phase 2 Build Sequence Checklist](./docs/Phase2_Checklist.md) — added tonight
+  
 ## BOM & Build Guide
 ![Exploded BOM View](images/ecoforge-bom-exploded.png)
 
