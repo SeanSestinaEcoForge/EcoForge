@@ -2,6 +2,9 @@
 
 **Open-source AI-optimized closed-loop homestead nodes** (Grok + Optimus + Starship-hardened) for Earth abundance, regenerative recovery, and Mars readiness. Humanity first.
 
+## Finalized Vision & Build Guide
+[EcoForge Complete Vision & Consistency Guide v3](docs/EcoForge-Complete-Vision-Consistency-v3.md)  
+→ All tiers, 2500 sq ft integrated home layout, engineering hub with CNC + 3D printers, full system integration, BOMs, phasing, and replication rules.
 ![EcoForge – Earth Abundance to Mars Readiness](images/ecoforge-earth-mars-hero.png)
 
 ## Quick Start
