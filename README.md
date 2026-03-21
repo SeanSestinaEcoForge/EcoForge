@@ -5,17 +5,41 @@ Vermiponics + biogas spine + RO + Grok reasoning/voice agents (Ara default) + Op
 
 ## Visual Overview
 
-![Container 1 Interior - Stacked Grow Beds](https://raw.githubusercontent.com/SeanSestinaEcoForge/SeanSestinaEcoForge/main/images/container-interior.jpg)  
-*Insulated shipping container setup with vermiponics beds and lighting for year-round abundance*
+These images showcase the current EcoForge designs: container homestead, process flows, cutaway views, isometric diagrams, BOM, scaling roadmap, and Mars variant.
 
-![Closed-Loop System Diagram](https://raw.githubusercontent.com/SeanSestinaEcoForge/SeanSestinaEcoForge/main/images/closed-loop-diagram.jpg)  
-*Nutrient & energy flow: Vermiponics → Biogas → RO → Powerwall hybrid (pH, energy, recovery all tied in)*
+These images show our current EcoForge designs: vermiponics in container, closed-loop flow, RO integration, and biogas spine.
 
-![Reverse Osmosis Unit](https://raw.githubusercontent.com/SeanSestinaEcoForge/SeanSestinaEcoForge/main/images/ro-unit.jpg)  
-*Low-energy RO achieving <6 ppm permeate in the closed loop*
+![Container 1 Interior - Stacked Grow Beds and Lighting](images/shipping-container-greenhouse-plans-BC.jpeg)  
+*Insulated shipping container with vermiponics beds for year-round abundance (Container 1 prototype vision)*
 
-![Biogas Digester Integration](https://raw.githubusercontent.com/SeanSestinaEcoForge/SeanSestinaEcoForge/main/images/biogas-digester.jpg)  
-*Biogas spine: Waste-to-methane powering storage & ops*
+![Closed-Loop Nutrient & Energy Cycle](images/big_aquaponics.jpg)  
+*Full closed-loop flow: Vermiponics → Biogas → RO → Energy balance (pH, recovery, energy all monitored)*
+
+![Reverse Osmosis Unit in Sustainable Setup](images/AdobeStock_39570622-copy.jpeg)  
+*RO filtration achieving <6 ppm permeate with low 0.55 kWh/m³ energy use*
+
+![Biogas Digester Integration](images/draft2_anarobic-digestor.jpg)  
+*Biogas spine: Waste-to-methane powering the Powerwall hybrid and ops*
+![EcoForge Container Cutaway View](images/ecoforge-container-cutaway.png)  
+*Cutaway of Container 1 prototype: Insulated shipping container with vermiponics beds, biogas integration, RO unit, and energy storage layout*
+
+![EcoForge Process Flow Diagram](images/ecoforge-process-flow.png)  
+*Closed-loop nutrient & energy flow: Vermiponics → Biogas spine → RO → Powerwall hybrid (pH, NH3, recovery, energy all tied together)*
+
+![EcoForge Isometric Diagram](images/ecoforge-isometric-diagram.png)  
+*Isometric overview of the full homestead node system*
+
+![EcoForge BOM Exploded View](images/ecoforge-bom-exploded.png)  
+*Exploded BOM for components: Vermi crates, RO membranes, biogas digester, sensors, and solar/Powerwall setup*
+
+![EcoForge Earth-Mars Hero](images/ecoforge-earth-mars-hero.png)  
+*Hero vision: Earth abundance scaling to Mars readiness*
+
+![EcoForge Scaling Roadmap](images/ecoforge-scaling-roadmap.png)  
+*Roadmap for multi-node expansion and community rollout*
+
+![EcoForge Mars Variant](images/ecoforge-mars-variant.png)  
+*Mars-optimized variant for Starship/dual-use potential*
 
 **Current Status (March 2026)**  
 - Blueprint v3 "Supernova" locked: 95–96.5% resource recovery, NH₃ <6 ppm, RO 0.55 kWh/m³, 18.8 LMH flux.  
