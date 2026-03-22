@@ -32,7 +32,7 @@ Vermiponics + biogas spine + RO + Grok reasoning/voice agents (**Ara** default) 
 
 **Vision**  
 True closed-loop abundance: Waste-to-food-to-energy cycles powering homesteads. Grok agents (**Ara** voice) guide ops, explain sims, optimize in realtime. Dual-use Earth/Mars (Starship scalable).  
-Full details: [docs/EcoForge-Complete-Vision-Consistency-v3.md]
+Full details: [Complete v1.1 Master Protocol List](complete-v1.1-master-protocol-list.md)
 
 **Key Metrics (v3 Supernova – Targets Achieved in Sims)**  
 - Vermiponics: 95–96.5% recovery, NH₃ <6 ppm  
