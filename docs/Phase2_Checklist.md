@@ -1,74 +1,68 @@
 # Phase 2: Physical Container Node Forge (Cambridge I-70/I-77 Pilot)
 
-## ⚠️ IMPORTANT SAFETY & LIABILITY DISCLAIMER
-
-**EcoForge designs, simulations, blueprints, code, BOMs, and all materials are provided "AS IS" and "WITH ALL FAULTS" for experimental, educational, and open-source research purposes only.**
-
-Building or operating any EcoForge system (vermiponics, biogas digester, RO unit, solar/Powerwall integration, shipping container mods, sensors, etc.) involves **serious risks** including but not limited to:
-- Fire or explosion (biogas/methane)
-- Electrical shock or arc flash
-- Chemical exposure or burns
-- Biological hazards (pathogens, ammonia)
-- Structural failure
-- Flooding or system leaks
-- Injury or property damage
-
-**You assume 100% of the risk.**  
-We make **no warranties** whatsoever (express or implied) about safety, performance, accuracy of simulations, or fitness for any purpose. Real-world results may differ from sims.
-
-Always:
-- Consult licensed engineers, electricians, plumbers, and local authorities
-- Comply with all building, environmental, electrical, and safety codes
-- Get proper permits and inspections
-- Start small and test safely
-
-**Neither Sean Sestina, EcoForge, contributors, nor any affiliates shall be liable** for any damages, injuries, losses, claims, or liabilities arising from the use of this material.
-
-Prototype and build **at your own risk only**. Not for commercial replication without independent professional review and certification.
-
-Read the full LICENSE (MIT) and CONTRIBUTING.md for additional terms.
-
-**Goal**: Deploy first quick-deploy container homestead node → vermi crates + RO system running full greywater cycle, vermicast/biogas output, Grok/ESP32 monitoring live. Target: 450L/day closed-loop proof, surplus for CSA drops <10 min to Columbus.
+## Goal
+Deploy the first quick-deploy 20ft shipping container homestead node with active vermiponics (vermi reactor), RO greywater recycling, basic biogas stub, solar baseline, and live Grok/ESP32 monitoring.  
+**Target Outcomes**: Prove 450 L/day closed-loop water cycle, consistent vermicast output, measurable food/energy surplus, and real-time data transparency. Surplus ready for local CSA drops or P2P credits (<10 min to Columbus). This becomes the replicable “Earth proof-of-concept” for Appalachia pilots and Mars analogs.
 
 **Dependencies**  
-- Phase 1 complete (blueprint v3, BOM sourced).  
-- Container secured (e.g., 20ft used shipping, insulated/floored).  
-- Treasury green for final purchases if needed (fallback: bootstrap with personal/family).  
+- Phase 1 complete (blueprints v3 locked, simulations validated, Master-BOM sourced).  
+- Site access secured (Cambridge crossroads lease/handshake with Danny/Dad or equivalent).  
+- 20ft used shipping container acquired and basic treasury/funding green (bootstrap fallback: personal/family/tools).  
+- All materials cross-referenced from Master-BOM-All-Tiers.md.
 
-**Day-by-Day Sequence** (30–90 min daily grind + weekends push)  
+**⚠️ Critical Reminder**  
+All physical work carries real risks (see full [DISCLAIMER.md](../DISCLAIMER.md)). Consult licensed professionals for electrical, plumbing, structural, and biogas work. Obtain all required permits. Start small, test safely, and document everything.
 
-**Week 1: Site & Container Prep (Days 1–7)**  
-- Day 1: Secure Cambridge crossroads site access (lease/land handshake).  
-- Day 2–3: Acquire/position 20ft container; level foundation (gravel/pads).  
-- Day 4: Insulate walls/floor (foam + vapor barrier for temp control).  
-- Day 5: Install basic solar baseline (Tesla panels + Powerwall 3 stub if available; fallback grid-tie test).  
-- Day 6: Plumbing rough-in (greywater collection from mock household/kitchen).  
-- Day 7: Safety baseline — electrical grounding, fire extinguisher, first aid. Checkpoint: Container habitable/secure.  
+## Detailed Week-by-Week Checklist
 
-**Week 2: Vermi Reactor Build & Inoculation (Days 8–14)**  
-- Day 8: Build 0.6m³ vermi bed frame (wood/IBC tote mod, 1m² x 0.6m).  
-- Day 9: Layer media — bottom 10cm perlite drainage, then 55% coco coir / 35% biochar / 10% perlite (moist to 70% wet-sponge).  
-- Day 10: Add 1kg garden soil + microbes; pH adjust to 6.8–7.2.  
-- Day 11: Introduce 1.2–2kg Eisenia fetida (red wigglers); light kitchen scraps + 100ml 1% molasses daily.  
-- Day 12–14: Acclimation ramp — increase feeds 20%/day; monitor BOD drop. Checkpoint: Bed active, worms thriving, no odors.  
+### Week 1: Site & Container Prep (Days 1–7)
+- [ ] Day 1: Secure site access, confirm south-facing ridge or flat area with water access, mark utility setbacks.  
+- [ ] Days 2–3: Acquire and position 20ft container; level foundation (gravel base + concrete pads or blocks). Reference designs/ for placement.  
+- [ ] Day 4: Insulate walls, floor, and ceiling (closed-cell foam + vapor barrier). Target R-value for temp stability (vermi 15–25°C).  
+- [ ] Day 5: Install baseline solar array (panels + mounting) and initial battery tie-in (Powerwall stub or equivalent). Test basic grid-tie fallback if needed.  
+- [ ] Day 6: Rough-in plumbing — greywater collection lines from mock kitchen/bath, drainage, and effluent routing to vermi/RO.  
+- [ ] Day 7: Complete safety baseline (electrical grounding, lightning protection, fire extinguishers, first aid kit, emergency shutoffs).  
+**Week 1 Checkpoint**: Container is level, insulated, weather-tight, and safe. Photos uploaded to /images/.  
 
-**Week 3: RO System Install & Commissioning (Days 15–21)**  
-- Day 15: Mount BW30 PRO-400/34 element in FRP vessel; plumb prefilter → pump → ERD → RO.  
-- Day 16: Install Atlas TDS/pH/flow sensors + ESP32 board; wire to Grok node (basic logging script).  
-- Day 17: Low-P flush (3bar, 30min drain); ramp to 9bar slow (<0.7bar/s).  
-- Day 18: Run 1hr full drain/service; test first permeate TDS (<6ppm target).  
-- Day 19–21: Integrate vermi effluent feed; ramp to 10–20% greywater blend → full by Day 21. Checkpoint: Steady flux ~18–19 LMH, permeate <6ppm, energy ~0.55 kWh/m³.  
+### Week 2: Vermi Reactor Build & Inoculation (Days 8–14)
+- [ ] Day 8: Build 0.6 m³ vermi bed/frame (wood or IBC tote modification, ~1 m² × 0.6 m). See designs/ for dimensions.  
+- [ ] Day 9: Layer media — 10 cm perlite drainage base, then 55% coco coir / 35% biochar / 10% perlite mix (moisten to ~70% field capacity).  
+- [ ] Day 10: Amend with 1 kg garden soil + beneficial microbes; adjust pH to 6.8–7.2.  
+- [ ] Day 11: Introduce 1.2–2 kg Eisenia fetida (red wigglers); begin light feeding (kitchen scraps + 100 ml 1% molasses solution).  
+- [ ] Days 12–14: Ramp feeding 20% per day while monitoring BOD, temperature, and odors. Harvest initial vermicast if ready.  
+**Week 2 Checkpoint**: Vermi bed is active, worms healthy, no anaerobic odors, basic effluent ready for RO testing. Log initial data via ESP32.
 
-**Week 4: Full Cycle & Grok Integration (Days 22–30)**  
-- Day 22–25: Daily runs — log vermicast harvest, biogas stub test, CSA sample prep.  
-- Day 26: Grok agent spawn — basic monitoring/alerts (TDS >15ppm shutdown, flow <15 LMH).  
-- Day 27–28: Optimize via Grok pings (e.g., molasses dosing, pH throttle).  
-- Day 29: First P2P vermicast/biogas credit test (if treasury live).  
-- Day 30: Milestone — full 450L/day cycle complete, data logged, surplus output documented. Checkpoint: Node live, transparency dashboard updated with real metrics.  
+### Week 3: RO System Install & Commissioning (Days 15–21)
+- [ ] Day 15: Mount BW30 PRO-400/34 membrane in FRP pressure vessel; plumb pre-filter → high-pressure pump → ERD → RO module (reference Master-BOM).  
+- [ ] Day 16: Install Atlas TDS/pH/flow sensors + ESP32 board; wire to Grok node and test basic logging script (src/ or simulations/).  
+- [ ] Day 17: Perform low-pressure flush (3 bar, 30 min drain); ramp pressure slowly to 9 bar (<0.7 bar/s).  
+- [ ] Day 18: Run 1-hour full service cycle; verify first permeate TDS <6 ppm target.  
+- [ ] Days 19–21: Integrate vermi effluent as feed; ramp greywater blend from 10% → 100%. Monitor flux (~18–19 LMH) and specific energy (~0.55 kWh/m³).  
+**Week 3 Checkpoint**: RO producing clean permeate consistently; sensors feeding live data to Grok; energy and recovery metrics logged.
 
-**Safety & Monitoring Baselines** (ongoing)  
-- Alarms: Permeate TDS >15ppm → shutdown; pH outside 6–8; flow anomalies.  
-- Daily Grok logs: Temp, pH, TDS, flux, energy use.  
-- Weekly review: Adjust feeds/media if fouling/BOD spikes.  
+### Week 4: Full Closed-Loop Cycle & Grok Integration (Days 22–30)
+- [ ] Days 22–25: Run daily full cycles; log vermicast harvest volumes, test basic biogas stub (methane capture if plumbed), prepare CSA sample output.  
+- [ ] Day 26: Spawn initial Grok/Ara monitoring agent — set alarms (TDS >15 ppm → auto-shutdown, pH 6–8 range, flow anomalies).  
+- [ ] Days 27–28: Use Grok pings for optimization (molasses dosing, pH adjustment, feed rates). Troubleshoot any fouling or BOD spikes.  
+- [ ] Day 29: Test first surplus distribution (vermicast/biogas credits or CSA drop). Update transparency dashboard (ForgeHub concept).  
+- [ ] Day 30: Full 450 L/day milestone run. Document surplus food/energy metrics, upload data logs and photos.  
+**Week 4 Checkpoint**: Node is live, self-sustaining closed-loop demonstrated, real metrics shared publicly (with disclaimer). Ready for visitors or replication scouting.
 
-Next: Phase 3 — Optimus task chaining, multi-node scaling, full homestead hybrid. Forge nonstop till reality. 🌱⚡️🪐∞
+## Ongoing Safety & Monitoring Baselines
+- **Alarms** (via Grok/ESP32): Permeate TDS >15 ppm (shutdown), pH outside 6–8, low/high flow, temp extremes, power anomalies.  
+- **Daily Logs**: Temperature, pH, TDS, flux, energy consumption, worm activity notes.  
+- **Weekly Reviews**: Adjust media/feeds if fouling occurs; inspect for leaks, structural integrity, or pest issues.  
+- **Compliance**: All electrical/plumbing work inspected where required. Biogas handling follows local safety codes.  
+- **Documentation**: Every change logged in repo (photos in /images/, data in examples/ or new logs/ folder).
+
+## Success Metrics for Phase 2 Completion
+- 450 L/day greywater → permeate cycle with <6 ppm TDS  
+- Consistent vermicast production (target 10–20+ lbs/week)  
+- Solar baseline covering ≥50% of daily energy (surplus tracked)  
+- Grok agent providing realtime alerts and optimization suggestions  
+- First surplus output distributed locally  
+- All data and lessons documented for Phase 3 scaling
+
+**Next**: Phase 3 — Optimus task chaining, multi-node expansion, full homestead hybrid (home integration, larger biogas, orbital solar concepts), and Appalachia/Mars analog pilots.  
+
+Forge nonstop till reality. Abundance is built one safe, documented step at a time. ❤️🥷🌱⚡️🪐♾️
